@@ -1,0 +1,89 @@
+body {
+    background-color:hsl(198 52% 37%);
+    display: flex;
+    flex-direction:column;
+    
+    
+}
+
+.title {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+
+.formPart {
+    width:auto;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    border: 10px solid hsl(193 47% 44%);
+    border-radius: 20px;
+    padding: 10px 20px 40px 20px;
+    background-color:hsl(20 33% 98%);    
+}
+
+.memeTextTop {
+    text-align:center;
+    height:8%;
+    width:100%;
+    position:absolute; 
+    z-index: 2;
+    font-weight:bold;
+    color:white;
+}
+
+.memeTextBottom {
+    text-align:center;
+    height:8%;
+    width:100%;
+    position:absolute;
+    bottom:3%;
+    z-index: 2;
+    font-weight:bold;
+    color:white
+}
+
+
+
+#memeField {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+    width:auto;
+    height:auto;
+    z-index:0;
+    gap: 10px;
+}
+
+.meme {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+}
+
+.container {
+    width: 300px;
+    height:400px;
+    position: relative;
+}
+
+.deleteButton {
+    position: absolute;
+    top:0;
+    right:0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: hsl(0,0,75);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index:3;
+}
+
